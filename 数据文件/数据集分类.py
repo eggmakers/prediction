@@ -16,9 +16,9 @@ def split_train_test_data(input_file, train_file, test_file, test_size=0.2, rand
     test_data.to_csv(test_file, index=False)
 
 if __name__ == "__main__":
-    input_file = "F:/code/预测模型/数据文件(处理)/daily_paper.csv"     
-    train_file = "F:/code/预测模型/数据文件(处理)/train.csv"     
-    test_file = "F:/code/预测模型/数据文件(处理)/test.csv"       
+    input_file = "F:/code/prediction/数据文件(处理)/daily_paper.csv"  #F:/code/prediction/数据文件(处理)/daily_paper.csv   
+    train_file = "F:/code/prediction/数据文件(处理)/train.csv"     
+    test_file = "F:/code/prediction/数据文件(处理)/test.csv"       
     test_size = 0.2             
     random_state = 42           # 设置随机种子
 
